@@ -1,0 +1,52 @@
+root:$1$Tx28dHmu$9X1GIs7.ADtY/5GQ4iGT5.:0:0:root:/root:/bin/bash
+bin:*:1:1:bin:/bin:/sbin/nologin
+daemon:*:2:2:daemon:/sbin:/sbin/nologin
+adm:*:3:4:adm:/var/adm:/sbin/nologin
+lp:*:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:*:5:0:sync:/sbin:/bin/sync
+shutdown:*:6:0:shutdown:/sbin:/sbin/shutdown
+halt:*:7:0:halt:/sbin:/sbin/halt
+mail:*:8:12:mail:/var/spool/mail:/sbin/nologin
+news:*:9:13:news:/etc/news:
+uucp:*:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:*:11:0:operator:/root:/sbin/nologin
+games:*:12:100:games:/usr/games:/sbin/nologin
+gopher:*:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:*:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:*:99:99:Nobody:/:/sbin/nologin
+distcache:!!:94:94:Distcache:/:/sbin/nologin
+nscd:!!:28:28:NSCD Daemon:/:/sbin/nologin
+vcsa:!!:69:69:virtual console memory owner:/dev:/sbin/nologin
+apache:!!:48:48:Apache:/var/www:/sbin/nologin
+rpc:!!:32:32:Portmapper RPC user:/:/sbin/nologin
+mailnull:!!:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:!!:51:51::/var/spool/mqueue:/sbin/nologin
+oprofile:!!:16:16:Special user account to be used by OProfile:/home/oprofile:/sbin/nologin
+webalizer:!!:67:67:Webalizer:/var/www/usage:/sbin/nologin
+dovecot:!!:97:97:dovecot:/usr/libexec/dovecot:/sbin/nologin
+squid:!!:23:23::/var/spool/squid:/sbin/nologin
+mysql:!!:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+pcap:!!:77:77::/var/arpwatch:/sbin/nologin
+ntp:!!:38:38::/etc/ntp:/sbin/nologin
+dbus:!!:81:81:System message bus:/:/sbin/nologin
+avahi:!!:70:70:Avahi daemon:/:/sbin/nologin
+rpcuser:!!:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:!!:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+hsqldb:!!:96:96::/var/lib/hsqldb:/sbin/nologin
+named:!!:25:25:Named:/var/named:/sbin/nologin
+sshd:!!:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+haldaemon:!!:68:68:HAL daemon:/:/sbin/nologin
+avahi-autoipd:!!:100:104:avahi-autoipd:/var/lib/avahi-autoipd:/sbin/nologin
+xfs:!!:43:43:X Font Server:/etc/X11/fs:/sbin/nologin
+gdm:!!:42:42::/var/gdm:/sbin/nologin
+sabayon:!!:86:86:Sabayon user:/home/sabayon:/sbin/nologin
+thina:$1$BQCyf1mb$APB74WEEaYiAsw.kdPicv.:500:501::/home/thina:/bin/bash
+tomcat:!!:91:91:Tomcat:/usr/share/tomcat5:/bin/sh
+nagios:$1$dGefaLTK$ZiqKqTeLit1loLHYfQCVM0:501:502::/home/nagios:/bin/bash
+postfix:!!:89:89::/var/spool/postfix:/sbin/nologin
+rrdcached:!!:101:105:rrdcached:/var/rrdtool/rrdcached:/sbin/nologin
+cacti:!!:102:106:cacti:/var/www/cacti:/bin/sh
+como:$1$HWFjGH54$lraBsmCN86bWEjtI6MhWe/:502:506::/home/como:/bin/bash
+git:$1$L2e2/ILR$faBelCeTjPL/nYffb.yT.0:503:507::/home/git:/bin/bash
+test:$1$WbSGbhdf$16.rHRQ6QXKtosfEKtdMk0:504:509::/home/test:/bin/bash
+pegasus:!!:66:65:tog-pegasus OpenPegasus WBEM/CIM services:/var/lib/Pegasus:/sbin/nologin
